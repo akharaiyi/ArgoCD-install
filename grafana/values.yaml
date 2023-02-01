@@ -665,7 +665,7 @@ ingress:
         kubernetes.io/ingress.class: alb
         alb.ingress.kubernetes.io/scheme: internet-facing
         # alb.ingress.kubernetes.io/tags: Environment=dev,Team=app
-        alb.ingress.kubernetes.io/group.name: miner-alb-group
+        # alb.ingress.kubernetes.io/group.name: miner-alb-group
         alb.ingress.kubernetes.io/target-type: ip
         alb.ingress.kubernetes.io/subnets: subnet-94afe6bf,subnet-24232053,subnet-97f9a3ce,
         alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:492182230036:certificate/90f6ac0e-52ad-49f7-ade8-cade791a09d8
