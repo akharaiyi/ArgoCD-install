@@ -551,10 +551,10 @@ persistence:
   ##
   storageClass: ""
   annotations: {}
-  existingClaim: ""
+  existingClaim: "pvc-69af834c-508a-48f3-8ceb-ba82e3f4fb05"
   accessMode: ReadWriteOnce
   accessModes: []
-  size: 50Gi
+  size: 100Gi
 
 ## @section RBAC parameters
 
